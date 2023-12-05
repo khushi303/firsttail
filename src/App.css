@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    scroll-behavior: smooth !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff-poppins {
+    font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slick-slide.slick-current.slick-active .design-card {
+    transform: unset !important;
+    border: 1px solid #FD749B;
+    text-align: center !important;
+    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.10);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slick-slide.slick-current.slick-active .design-card h3 {
+    background: linear-gradient(178deg, #FD749B -13.56%, #281AC8 158.3%) !important;
+    background-clip: text !important;
+    text-align: center !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 
-.App-link {
-  color: #61dafb;
+.slick-slide.slick-current.slick-active .design-card img {
+    border-radius: 17px !important;
+    background: linear-gradient(178deg, #021A38 -13.56%, #CC33D9 118.02%) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-slide.slick-current.slick-active .design-card button {
+    background: linear-gradient(178deg, #021A38 -13.56%, #CC33D9 118.02%) !important;
+}
+
+@media (min-width:1024px) {
+    .slick-slide.slick-current.slick-active .design-card {
+        transform: scale(1.2) !important;
+    }
+
+    .slick-track {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+}
+
+@keyframes pulse2 {
+    0% {
+        box-shadow: 0 0 0 0 #c060a8ba;
+    }
+
+    50% {
+        box-shadow: 0 0 1em #c060a8ba;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 #c060a8ba;
+    }
 }
