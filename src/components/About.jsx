@@ -4,7 +4,7 @@ import Paintimg from '../assets/images/png/paintimg.png';
 const About = () => {
     return (
         <div id='about' className='py-14'>
-            <div className='container mx-auto md:px-14 px-4'>
+            <div className='container mx-auto lg:px-20 xl:px-14 px-4'>
                 <div className='flex justify-between flex-wrap lg:items-start items-center lg:flex-row flex-col px-3 relative z-[3]'>
                     <div className='xl:w-5/12 lg:w-6/12 w-full px-3 lg:block flex items-center justify-center'>
                         <img data-aos="zoom-in" src={Paintimg} alt="paintimg" className='' />

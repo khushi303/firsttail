@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import BlueHouse from '../assets/images/png/bluehouse.png';
 import Flowerpot from '../assets/images/png/flowerpot1.png';
 import Paintbrushimg from '../assets/images/png/paintbrushimg.png';
-import Gallerylayer from '../assets/images/png/gallerylayer.png';
+import Gallerylayer from '../assets/images/png/galllayer.png';
 
 const Interior = () => {
     const settings = {
@@ -46,10 +46,10 @@ const Interior = () => {
             <div className='absolute xl:top-[-140px] md:top-[-69px] top-[-42px] start-0 end-0'>
                 <img src={Whitelayer2} alt="whitelaye2" className='w-full' />
             </div>
-            <div className='absolute bottom-[-3%] sm:bottom-[-7%] md:bottom-[-10%] lg:bottom-[-12%] xl:bottom-[-14%] left-0 right-0'>
+            <div className='absolute sm:bottom-[-5%] bottom-[-3%] left-0 right-0'>
                 <img src={Gallerylayer} alt="Gallerylayer" className='w-full' />
             </div>
-            <div data-aos="zoom-in-up" className='container mx-auto pb-14 sm:pt-24 pt-16 lg:px-20 sm:px-14 px-10'>
+            <div data-aos="zoom-in-up" className='container mx-auto pb-14 sm:pt-24 pt-16 lg:px-20 sm:px-14 px-4'>
                 <Slider {...settings} className='transition'>
                     <div className='lg:px-0 px-4'>
                         <div className='design-card text-start transition-transform lg:px-11 lg:py-6 p-6 bg-white border border-solid border-[#888] rounded-[15px]'>

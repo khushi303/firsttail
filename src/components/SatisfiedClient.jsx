@@ -9,13 +9,13 @@ const SatisfiedClient = () => {
     return (
         <div className=' bg-gradient-to-b via-fuchsia-600 from-slate-900 to-slate-900 lg:pt-28 sm:pt-20 pt-10 relative'>
             <img src={Whitelayer33} alt="Whitelayer33" className='w-full absolute sm:top-[-67px] top-[-22px] left-0 right-0 ' />
-            <div className='container mx-auto xl:pt-6 pb-6'>
+            <div className='container mx-auto xl:pt-6 xl:pb-28 pb-8'>
                 <div className='flex items-center justify-center flex-col lg:pt-20 pt-14 pb-9 px-3'>
                     <h3 data-aos="fade-down" className='ff-poppins text-[32px] font-bold text-white max-w-[373px] text-center'><span className='uppercase'>10,000</span> Satisfied clients
                         around the world</h3>
                     <p data-aos="fade-down" className='ff-poppins text-[16px] font-normal leading-[250%] max-w-[542px] text-white text-center md:pt-8 pt-6'>Yeah! we’re proud with numbers. We’ve helped thousands of clients all around the world with our bespoke service. Hover ontop of them pic to view their testimonials.</p>
                 </div>
-                <div className='flex items-center lg:justify-between lg:flex-row flex-col justify-center lg:px-14 md:px-10 px-6'>
+                <div className='flex items-center lg:justify-between lg:flex-row flex-col justify-center px-6'>
                     <div className='lg:w-6/12 w-full px-6'>
                         <div data-aos="zoom-in-up" className='review-card group relative z-[4] hover:bg-white transition-colors duration-300 bg-[#C4C4C4] rounded-[15px] pt-[18px] pb-[18px] pl-6 max-w-[410px] w-full'>
                             <p className='ff-poppins text-[16px] font-normal '>Neya from Goa</p>
