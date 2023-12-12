@@ -49,7 +49,7 @@ const Interior = () => {
             <div className='absolute sm:bottom-[-5%] bottom-[-3%] left-0 right-0'>
                 <img src={Gallerylayer} alt="Gallerylayer" className='w-full' />
             </div>
-            <div data-aos="zoom-in-up" className='container mx-auto pb-14 sm:pt-24 pt-16 lg:px-20 sm:px-14 px-4'>
+            <div data-aos="zoom-in-up" className='container mx-auto pb-14 sm:pt-24 pt-16  lg:px-36 sm:px-14 px-4'>
                 <Slider {...settings} className='transition'>
                     <div className='lg:px-0 px-4'>
                         <div className='design-card text-start transition-transform lg:px-11 lg:py-6 p-6 bg-white border border-solid border-[#888] rounded-[15px]'>
